@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    background-color: #333;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:nth-child(1){
+    margin-left: 10px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+form {
+    margin-right: 20px;
+}
+
+form input[type="text"] {
+    border: none;
+    outline: none;
+    padding: .5rem;
+}
+
+form button {
+    margin: -4px;
+    border: none;
+    padding: .5rem;
+}
